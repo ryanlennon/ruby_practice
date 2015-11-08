@@ -1,10 +1,6 @@
 # Find the common element between two arrays.
 def common_element(input_array1, input_array2)
-  input_array1.each do |index|
-    if input_array2.include?(index)
-      puts index
-    end
-  end
+  input_array1 & input_array2
 end
 
 # Driver code
