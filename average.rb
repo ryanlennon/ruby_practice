@@ -1,4 +1,13 @@
 # Calculate the average (mean) of an array of numbers.
+def average(input_array)
+  total = 0
+  input_array.each do |num|
+    total += num
+  end
+    average = (total.to_f) / input_array.length
+end
+
+
 
 
 # Driver code
